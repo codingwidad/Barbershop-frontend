@@ -1,0 +1,117 @@
+.appointment-form-container {
+ 
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.header {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  
+  
+}
+.title {
+  font-weight: bold;
+  letter-spacing: -0.025em;
+}
+.description {
+  margin-top: 0.5rem;
+}
+
+.form-and-image {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.barbershop-image {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.barbershop-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.form-container {
+  flex: 1;
+  max-width: 500px;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 1.1em;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.input-container {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+label {
+  font-weight: 500;
+  color: #333;
+}
+
+input, select {
+  width: 100%;
+  padding: 12px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 1em;
+}
+
+button {
+  padding: 12px;
+  background-color: #161716;
+  color: white;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+span {
+  color: red;
+  font-size: 0.9em;
+}
+
+.success {
+  color: green;
+}
+
+.error {
+  color: red;
+}
