@@ -12,7 +12,7 @@ const Appointment = () => {
 
   const onSubmit = async (data) => {
     try {
-      const response = await fetch("https://barbershop-backend-604fa886136d.herokuapp.com/api/appointments", {
+      const response = await fetch("http://localhost:5000/api/appointments", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
