@@ -12,7 +12,7 @@ const Appointment = () => {
 
   const onSubmit = async (data) => {
     try {
-      const response = await fetch("https://barbershop-backend-6rw5.onrender.com", {
+      const response = await fetch("https://barbershop-backend-6rw5.onrender.com/api/appointments", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
